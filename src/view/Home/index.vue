@@ -1082,6 +1082,14 @@ export default {
     PopularPackage,
     TopDestinations,
     OurOffers
+},
+mounted(){
+    // $store.commit('viewLoader')
+        this.$store.commit('viewLoader')
+setTimeout(()=>{
+        this.$store.commit('hideLoader')
+
+},2000)
 }
 
 }

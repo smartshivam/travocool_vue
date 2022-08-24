@@ -318,7 +318,7 @@
                                     
                                 </div>
                                 <div class="col-md-12 col-sm-12 col-lg-12 col-xl-2 mb-3">
-                                    <button class="btn allbtn text-white py-2">Book</button>
+                                    <router-link :to="{name:'Checkout'}" class="btn allbtn text-white py-2">Book</router-link>
                                 </div>
                             </div>
                         </div>
@@ -623,6 +623,11 @@ export default {
     },
     mounted(){
         this.toggleHandler
+         this.$store.commit('viewLoader')
+setTimeout(()=>{
+        this.$store.commit('hideLoader')
+
+},2000)
     }
 
 }

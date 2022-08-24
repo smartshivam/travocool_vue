@@ -1,4 +1,5 @@
 <template>
+<Preloader/>
  <HeaderVue/>
  <router-view/>
  <Footer/>
@@ -9,6 +10,7 @@
 import HeaderVue from './components/Layout/Header.vue';
 // import Home from "./view/Home/index.vue"
 import Footer from './components/Layout/Footer.vue';
+import Preloader from './components/Preloader/Preloader.vue';
 
 export default {
   
@@ -16,8 +18,9 @@ export default {
   components: {
     HeaderVue,
     // Home,
-    Footer
-  }
+    Footer,
+    Preloader
+}
 }
 
  

@@ -715,6 +715,11 @@ export default {
     },
     mounted (){
         this.Slider()
+         this.$store.commit('viewLoader')
+setTimeout(()=>{
+        this.$store.commit('hideLoader')
+
+},2000)
     }
 
 }

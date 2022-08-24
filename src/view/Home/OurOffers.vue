@@ -53,7 +53,7 @@ export default {
     methods:{
     slider(){
         window.$(function(){
-window.$('#our__offers').slick({
+window.$('#our__offers').not('.slick-initialized').slick({
             infinite: true,
             slidesToShow: 1,
             slidesToScroll: 1,

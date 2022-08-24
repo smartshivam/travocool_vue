@@ -749,7 +749,14 @@
 
 <script>
 export default {
-    name:"CheckOut"
+    name:"CheckOut",
+    mounted(){
+         this.$store.commit('viewLoader')
+setTimeout(()=>{
+        this.$store.commit('hideLoader')
+
+},2000)
+    }
 
 }
 </script>

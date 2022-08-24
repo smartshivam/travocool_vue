@@ -18,7 +18,7 @@
                                     <h6><span>%</span> <span>Off</span></h6>
                                 </div>
                                 <h2>Holiday packages</h2>
-                                <a href="details.php" class="btn btn_theme btn_md">Book now</a>
+                                <router-link :to="{name:'Details'}" class="btn btn_theme btn_md">Book now </router-link>
                             </div>
                         </router-link>
                         </div>
@@ -27,75 +27,75 @@
                         <div class="row">
                             <div class="col-lg-4 col-md-4 col-sm-12 col-12">
                                 <div class="destinations_content_box img_animation">
-                                    <a href="details.php">
+                                    <router-link :to="{name:'Details'}">
                                         <img src="assets/images/destination1.png" alt="img">
-                                    </a>
+                                     </router-link>
                                     <div class="destinations_content_inner">
-                                        <h3><a href="details.php">China</a></h3>
+                                        <h3><router-link :to="{name:'Details'}">China </router-link></h3>
                                     </div>
                                 </div>
                                 <div class="destinations_content_box img_animation">
-                                    <a href="details.php">
+                                    <router-link :to="{name:'Details'}">
                                         <img src="assets/images/destination2.png" alt="img">
-                                    </a>
+                                     </router-link>
                                     <div class="destinations_content_inner">
-                                        <h3><a href="details.php">Darjeeling</a></h3>
+                                        <h3><router-link :to="{name:'Details'}">Darjeeling </router-link></h3>
                                     </div>
                                 </div>
                                 <div class="destinations_content_box img_animation">
-                                    <a href="details.php">
+                                    <router-link :to="{name:'Details'}">
                                         <img src="assets/images/destination3.png" alt="img">
-                                    </a>
+                                     </router-link>
                                     <div class="destinations_content_inner">
-                                        <h3><a href="details.php">Malaysia</a></h3>
+                                        <h3><router-link :to="{name:'Details'}">Malaysia </router-link></h3>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-4 col-sm-12 col-12">
                                 <div class="destinations_content_box img_animation">
-                                    <a href="details.php">
+                                    <router-link :to="{name:'Details'}">
                                         <img src="assets/images/destination4.png" alt="img">
-                                    </a>
+                                     </router-link>
                                     <div class="destinations_content_inner">
-                                        <h3><a href="details.php">Gangtok</a></h3>
+                                        <h3><router-link :to="{name:'Details'}">Gangtok </router-link></h3>
                                     </div>
                                 </div>
                                 <div class="destinations_content_box img_animation">
-                                    <a href="details.php">
+                                    <router-link :to="{name:'Details'}">
                                         <img src="assets/images/destination5.png" alt="img">
-                                    </a>
+                                     </router-link>
                                     <div class="destinations_content_inner">
-                                        <h3><a href="details.php">Thailand</a></h3>
+                                        <h3><router-link :to="{name:'Details'}">Thailand </router-link></h3>
                                     </div>
                                 </div>
                                 <div class="destinations_content_box img_animation">
-                                    <a href="details.php">
+                                    <router-link :to="{name:'Details'}">
                                         <img src="assets/images/destination6.png" alt="img">
-                                    </a>
+                                     </router-link>
                                     <div class="destinations_content_inner">
-                                        <h3><a href="details.php">Australia</a></h3>
+                                        <h3><router-link :to="{name:'Details'}">Australia </router-link></h3>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-4 col-sm-12 col-12">
                                 <div class="destinations_content_box img_animation">
-                                    <a href="details.php">
+                                    <router-link :to="{name:'Details'}">
                                         <img src="assets/images/destination7.png" alt="img">
-                                    </a>
+                                     </router-link>
                                     <div class="destinations_content_inner">
-                                        <h3><a href="details.php">London</a></h3>
+                                        <h3><router-link :to="{name:'Details'}">London </router-link></h3>
                                     </div>
                                 </div>
                                 <div class="destinations_content_box img_animation">
-                                    <a href="details.php">
+                                    <router-link :to="{name:'Details'}">
                                         <img src="assets/images/destination8.png" alt="img">
-                                    </a>
+                                     </router-link>
                                     <div class="destinations_content_inner">
-                                        <h3><a href="details.php">USA</a></h3>
+                                        <h3><router-link :to="{name:'Details'}">USA </router-link></h3>
                                     </div>
                                 </div>
                                 <div class="destinations_content_box">
-                                    <a href="details.php" class="btn btn_theme btn_md w-100">View all</a>
+                                    <router-link :to="{name:'Details'}" class="btn btn_theme btn_md w-100">View all </router-link>
                                 </div>
                             </div>
                         </div>

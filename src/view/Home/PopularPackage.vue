@@ -31,7 +31,7 @@
                             
                         </div>
                         <div class="pacakageItem">
-                            <a href="details.php">
+                            <router-link :to="{name:'Details'}">
                                 <div class="imagesec">
                                     <img src="assets/images/hotel5.png" alt="" class="img-fluid"/>
                                 </div>
@@ -53,10 +53,10 @@
                                     </span>
                                 </div>
                                 </div>
-                            </a>
+                            </router-link>
                         </div>
                         <div class="pacakageItem">
-                            <a href="details.php">
+                            <router-link :to="{name:'Details'}">
                                 <div class="imagesec">
                                     <img src="assets/images/hotel3.png" alt="" class="img-fluid"/>
                                 </div>
@@ -78,10 +78,10 @@
                                     </span>
                                 </div>
                                 </div>
-                            </a>
+                            </router-link>
                         </div>
                         <div class="pacakageItem">
-                            <a href="details.php">
+                            <router-link :to="{name:'Details'}">
                                 <div class="imagesec">
                                     <img src="assets/images/hotel3.png" alt="" class="img-fluid"/>
                                 </div>
@@ -103,10 +103,10 @@
                                     </span>
                                 </div>
                                 </div>
-                            </a>
+                            </router-link>
                         </div>
                         <div class="pacakageItem">
-                            <a href="details.php">
+                            <router-link :to="{name:'Details'}">
                                 <div class="imagesec">
                                     <img src="assets/images/hotel3.png" alt="" class="img-fluid"/>
                                 </div>
@@ -128,10 +128,10 @@
                                     </span>
                                 </div>
                                 </div>
-                            </a>
+                            </router-link>
                         </div>
                         <div class="pacakageItem">
-                            <a href="details.php">
+                            <router-link :to="{name:'Details'}">
                                 <div class="imagesec">
                                     <img src="assets/images/hotel3.png" alt="" class="img-fluid"/>
                                 </div>
@@ -153,7 +153,7 @@
                                     </span>
                                 </div>
                                 </div>
-                            </a>
+                            </router-link>
                         </div>
                     </div>
                 </div>
@@ -188,6 +188,7 @@ window.$('#package__WrapperID').slick({
             }
         ]
     });
+    
         }
     },
     mounted(){
